@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alamin Hasan</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#1F2937] text-white">
+    <!-- Header Section -->
+    <header class="px-10 py-2">
+        <div class="flex justify-between items-center">
+            <!-- Logo Section -->
+            <section class="items-center">
+                <a class="btn btn-ghost text-lg font-semibold">
+                    <img class="w-full h-full" src="images/logo.png" alt="portfolio logo">
+                </a>
+            </section>
+    
+            <!-- Navbar Section -->
+            <section>
+                <!-- Checkbox Toggle -->
+                <input type="checkbox" id="menu-toggle" class="hidden" />
+                <label for="menu-toggle" class="cursor-pointer text-[#0477B0] md:hidden">
+                    <i class="fa-solid fa-bars fa-2x" id="hamburger-icon"></i>
+                    <i class="fa-solid fa-times fa-3x hidden" id="cross-icon"></i>
+                </label>
+    
+                <!-- Mobile Menu -->
+                <div class="hidden absolute right-0 z-10 shadow-2xl p-4 mobile-menu">
+                    <ul class="space-y-2">
+                        <li><a class="btn btn-ghost text-xl" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="about.html"><i class="fa-solid fa-address-card"></i> About</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="project.html"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                        <li><a class="btn btn-ghost text-xl" href=""><i class="fa-regular fa-file"></i> Resume</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex">
+                    <ul class="w-full flex justify-around items-center font-semibold">
+                        <li><a class="btn btn-ghost text-xl" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="about.html"><i class="fa-solid fa-address-card"></i> About</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="project.html"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                        <li><a class="btn btn-ghost text-xl" href=""><i class="fa-regular fa-file"></i> Resume</a></li>
+                        <li><a class="btn btn-ghost text-3xl" href="https://github.com/alaminatcse" target="_blank">
+                            <i class="fa-solid fa-code-branch" style="color: #0477B0;"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- Main Section -->
+    <main class="px-10 pb-10">
+        <h1 class="py-8 text-2xl md:text-4xl font-bold text-center">Here is my Resume</h1>
+        <section class="mx-auto text-center">
+            <div class="w-full md:w-3/4 mx-auto hover:scale-[1.01]">
+                <iframe src="images/resume.pdf" class="w-full h-screen"></iframe>
+            </div>
+            <div class="my-10"></div>
+                <a href="images/resume.pdf" download="resume.pdf">
+                    <btn class="bg-[#0477B0] text-lg font-bold p-3 rounded-md">Download Resume <i class="fa-solid fa-download"></i></btn>
+                </a>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <!-- Footer Section -->
+    <footer class="py-6 text-center items-center">
+        <p class="font-semibold">©2024 D&D by AH</p>
+        <p class="font-bold">"Code is poetry." - Robert Martin</p>
+    </footer>
+</body>
+
+</html>

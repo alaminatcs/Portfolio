@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alamin Hasan</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#1F2937] text-white">
+    <!-- Header Section -->
+    <header class="px-10 py-2">
+        <div class="flex justify-between items-center">
+            <!-- Logo Section -->
+            <section class="items-center">
+                <a class="btn btn-ghost text-lg font-semibold">
+                    <img class="w-full h-full" src="images/logo.png" alt="portfolio logo">
+                </a>
+            </section>
+    
+            <!-- Navbar Section -->
+            <section>
+                <!-- Checkbox Toggle -->
+                <input type="checkbox" id="menu-toggle" class="hidden" />
+                <label for="menu-toggle" class="cursor-pointer text-[#0477B0] md:hidden">
+                    <i class="fa-solid fa-bars fa-2x" id="hamburger-icon"></i>
+                    <i class="fa-solid fa-times fa-3x hidden" id="cross-icon"></i>
+                </label>
+    
+                <!-- Mobile Menu -->
+                <div class="hidden absolute right-0 z-10 shadow-2xl p-4 mobile-menu">
+                    <ul class="space-y-2">
+                        <li><a class="btn btn-ghost text-xl" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a class="btn btn-ghost text-xl" href=""><i class="fa-solid fa-address-card"></i> About</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="project.html"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="resume.html"><i class="fa-regular fa-file"></i> Resume</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex">
+                    <ul class="w-full flex justify-around items-center font-semibold">
+                        <li><a class="btn btn-ghost text-xl" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a class="btn btn-ghost text-xl" href=""><i class="fa-solid fa-address-card"></i> About</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="project.html"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="resume.html"><i class="fa-regular fa-file"></i> Resume</a></li>
+                        <li><a class="btn btn-ghost text-3xl" href="https://github.com/alaminatcse" target="_blank">
+                            <i class="fa-solid fa-code-branch" style="color: #0477B0;"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- Main Section -->
+    <main class="px-10">
+        <!-- Intro Section -->
+        <section class="pt-12">
+            <h1 class="text-2xl lg:text-4xl font-bold">If You Don't Know Me:</h1>
+            
+            <ul class="pt-4 text-left text-xl space-y-4">
+                <!-- <li>Passionate <span class="text-[#0477B0]">CS undergraduate</span> seeking to leverage technical skills and <span class="text-[#0477B0]">problem-solving</span> abilities to become a skilled software engineer.</li>  -->
+                <li>Hi, I'm Alamin Hasan <span class="text-[#0477B0]">from Satkhira</span> currently <span class="text-[#0477B0]">living in Dhaka,</span> Bangladesh.</li>
+                <li>I'm currently pursuing my <span class="text-[#0477B0]">BSc. in Computer Science</span> and Engineering from <span class="text-[#0477B0]">Daffodil International</span> University, I've completed all of the regular courses except Final Defense and expected graduation is in December, 2024.</li>
+                <li>I sometimes like programming and problem-solving on various online judges like 
+                    <span class="bg-[#0477B0]"><a href="https://leetcode.com/u/alaminatcse/" target="_blank">LeetCode</a></span>, 
+                    <span class="bg-[#0477B0]"><a href="https://www.hackerrank.com/profile/alaminatcse" target="_blank">HackerRank</a></span>, 
+                    <span class="bg-[#0477B0]"><a href="https://www.codechef.com/users/alaminatcse" target="_blank">CodeChef</a></span>, etc. 
+                    Till now I've solved about <span class="bg-[#0477B0]">500+</span> problems of various online judges.
+                </li>
+                <li><span class="text-[#0477B0]">Apart from these I also love to do</span>- Gardening, Social Works, Play Soccer, Spend time with friends and family members etc.</li>
+            </ul>
+        </section>
+        <!-- Skillset Section -->
+        <section class="pt-10">
+            <h1 class="text-2xl lg:text-4xl font-bold">My Professional Skills:</h1>
+            <div class="py-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/c.png" alt="C++" title="C++ Programming Language">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/ds.png" alt="DS" title="Data Structures">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/algo.png" alt="Algo" title="Algorithms">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/py.png" alt="Py" title="Python programming language">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/oop.png" alt="OOP" title="Object-Oriented Programming">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/sql.png" alt="SQL" title="Structured Query Language">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/html.png" alt="HTML" title="HyperText Markup Language">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/css.png" alt="CSS" title="Cascading Style Sheets">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/js.png" alt="JS" title="JavaScript Programming Language">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/api.png" alt="API" title="Application Programming Interface">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/react.png" alt="React" title="React JavaScript library">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/django.png" alt="Django" title="Django Python web framework">
+                    <!-- <p>content_name</p> -->
+                </button>
+            </div>
+        </section>
+        <!-- Tools and Tech Section -->
+        <section class="pt-2 pb-10">
+            <h1 class="text-2xl lg:text-4xl font-bold">Tools I Usually Used:</h1>
+            <div class="pt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/windows.png" alt="windows" title="Windows Device">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/vscode.png" alt="vscode" title="Visual Studio Code">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/git.png" alt="git" title="GIT-Global Information Tracker">
+                    <!-- <p>content_name</p> -->
+                </button>
+                <button class="flex justify-center items-center p-6 border-2 border-[#0477B0] hover:scale-[1.05]">
+                    <img class="w-16 h-16" src="images/devtools.png" alt="devtools" title="Chrome Devtools">
+                    <!-- <p>content_name</p> -->
+                </button>
+        </section>
+    </main>
+    <hr>
+    <!-- Footer Section -->
+    <footer class="py-6 text-center items-center">
+        <p class="font-semibold">©2024 D&D by AH</p>
+        <p class="font-bold">"Code is poetry." - Robert Martin</p>
+    </footer>
+</body>
+
+</html>

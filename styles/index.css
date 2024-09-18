@@ -1,0 +1,32 @@
+/* @keyframes typewriter {
+    to {
+        width: 100%;
+    }
+}
+
+.animate-typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #ccc;
+    animation: typewriter 2s steps(40, end) infinite;
+} */
+
+@media screen and (max-width:768px) {
+    #cross-icon {
+        display: none;
+    }
+
+    /* Show Cross Icon when Checkbox is Checked and Hide Hamburger Icon */
+    #menu-toggle:checked + label #hamburger-icon {
+        display: none;
+    }
+
+    #menu-toggle:checked + label #cross-icon {
+        display: block;
+    }
+
+    /* Show the Mobile Menu when Checkbox is Checked */
+    #menu-toggle:checked~.mobile-menu {
+        display: block;
+    }
+}

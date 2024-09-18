@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alamin Hasan</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#1F2937] text-white">
+    <!-- Header Section -->
+    <header class="px-10 py-2">
+        <div class="flex justify-between items-center">
+            <!-- Logo Section -->
+            <section class="items-center">
+                <a class="btn btn-ghost text-lg font-semibold">
+                    <img class="w-full h-full" src="images/logo.png" alt="portfolio logo">
+                </a>
+            </section>
+
+            <!-- Navbar Section -->
+            <section>
+                <!-- Checkbox Toggle -->
+                <input type="checkbox" id="menu-toggle" class="hidden" />
+                <label for="menu-toggle" class="cursor-pointer text-[#0477B0] md:hidden">
+                    <i class="fa-solid fa-bars fa-2x" id="hamburger-icon"></i>
+                    <i class="fa-solid fa-times fa-3x hidden" id="cross-icon"></i>
+                </label>
+
+                <!-- Mobile Menu -->
+                <div class="hidden absolute right-0 z-10 shadow-2xl p-4 mobile-menu">
+                    <ul class="space-y-2">
+                        <li><a class="btn btn-ghost text-xl" href="index.html"><i class="fa-solid fa-house"></i>
+                                Home</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="about.html"><i class="fa-solid fa-address-card"></i>
+                                About</a></li>
+                        <li><a class="btn btn-ghost text-xl" href=""><i class="fa-solid fa-diagram-project"></i>
+                                Projects</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="resume.html"><i class="fa-regular fa-file"></i>
+                                Resume</a></li>
+                    </ul>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex">
+                    <ul class="w-full flex justify-around items-center font-semibold">
+                        <li><a class="btn btn-ghost text-xl" href="index.html"><i class="fa-solid fa-house"></i>
+                                Home</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="about.html"><i class="fa-solid fa-address-card"></i>
+                                About</a></li>
+                        <li><a class="btn btn-ghost text-xl" href=""><i class="fa-solid fa-diagram-project"></i>
+                                Projects</a></li>
+                        <li><a class="btn btn-ghost text-xl" href="resume.html"><i class="fa-regular fa-file"></i>
+                                Resume</a></li>
+                        <li><a class="btn btn-ghost text-3xl" href="https://github.com/alaminatcse" target="_blank">
+                                <i class="fa-solid fa-code-branch" style="color: #0477B0;"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- Main Section -->
+    <main class="px-10">
+        <h1 class="pt-10 text-3xl md:text-4xl font-bold text-center">Featured Work</h1>
+        <p class="text-sm font-semibold text-center">"A showcase of my recent projects and accomplishments"</p>
+        <div class="pt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="card hover:scale-[1.05] shadow-xl">
+                <figure>
+                    <img src="images/youtubeclone.png" alt="youtube clone" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">YouTube Clone</h2>
+                    <p>It's clone webpage of YouTube.</p>
+                    <div class="card-actions justify-center">
+                        <button class="btn text-white bg-[#0477B0]"><a href="https://github.com/alaminatcse/Topicwise-Projects/tree/main/5.%20API/youtube-clone" target="_blank">See Details</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card hover:scale-[1.05] shadow-xl">
+                <figure>
+                    <img src="images/geocal.png" alt="geometry calculator" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Geometry Calculator</h2>
+                    <p>It's a customize geometry calculator.</p>
+                    <div class="card-actions justify-center">
+                        <button class="btn text-white bg-[#0477B0]"><a href="https://github.com/alaminatcse/Topicwise-Projects/tree/main/4.%20JavaScript-DOM/geometric-calculator" target="_blank">See Details</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card hover:scale-[1.05] shadow-xl">
+                <figure>
+                    <img src="images/gadgetshop.png" alt="gadget shop" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Gadget Shop</h2>
+                    <p>It's a gadget shop webpage.</p>
+                    <div class="card-actions justify-center">
+                        <button class="btn text-white bg-[#0477B0]"><a href="https://github.com/alaminatcse/Topicwise-Projects/tree/main/3.%20Tailwind-CSS-Frameworks/gadgets-shop" target="_blank">See Details</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card hover:scale-[1.05] shadow-xl">
+                <figure>
+                    <img src="images/travelgroup.png" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Travel Agency</h2>
+                    <p>It's a travel guide agency's webpage.</p>
+                    <div class="card-actions justify-center">
+                        <button class="btn text-white bg-[#0477B0]"><a href="https://github.com/alaminatcse/Topicwise-Projects/tree/main/2.%20Responsive-Design/travel-agency" target="_blank">See Details</a></button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <hr class="mt-12">
+    <!-- Footer Section -->
+    <footer class="py-6 text-center items-center">
+        <p class="font-semibold">©2024 D&D by AH</p>
+        <p class="font-bold">"Code is poetry." - Robert Martin</p>
+    </footer>
+</body>
+
+</html>
